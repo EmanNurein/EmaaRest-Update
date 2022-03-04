@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emaa Restaurant</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
+        <link href="../Test/first.css" rel="stylesheet" type="text/css"/>
+        <script src="first.js"></script>
+        <link href="pic/Eman-designstyle-colors-m.png" rel="icon">
+    </head>
+    <body class="mydark">
+        <div>
+            <header>
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button onclick="changeMode()">Change Mode</button>
+
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="https://i.ibb.co/tbd1trS/logo.png" alt="logo" >
+                                 Restaurant
+                            </a>
+                        </div>
+                        <div class="collapse  navbar-collapse" id="myNav">
+                                
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="form1.html" target="_blanck"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                                <li><a href="form2.html" target="_blanck"><span class="glyphicon glyphicon-user"></span>Sign in</a></li> 
+
+                            </ul>
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>    
+            </header>
+            <div id="search">
+                <div id="myslider"  class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myslider" data-slide-to="0" class="active"></li>
+                        <li data-target="#myslider" data-slide-to="1"></li>
+                        <li data-target="#myslider" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="carousel-content">
+                                <div id="logo">
+                                    <span>ER</span>
+                                </div>
+                                <div id="heading">
+                                    Find The Best Restaurants Near You
+                                </div>
+                                <div class="dropdown">
+                                    <select>
+                                        <option>------PLEASE SELECT CITY------</option>
+                                        <option>Khartoum-Khartoum 2</option>
+                                        <option>Khartoum- Amarat 15</option>
+                                        <option>Khartoum- Africa Road</option>
+                                    </select>
+                                    <select class="restlist">
+                                        <option>------PLEASE SELECT RESTURENTS------</option>
+                                        <option>Ozone</option>
+                                        <option>Solitaire</option>
+                                        <option>Alnuba</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <img src="https://i.ibb.co/qJFb1qY/3d-render-of-luxury-restaurant-interior.jpg" alt="luxury-restaurant-interior"/>
+                        </div>
+                        <div class="item">
+                            <img src="https://i.ibb.co/pWm8HbK/food-restaurant-hand-dinner.jpg" alt="food-restaurant-hand-dinner" />
+                            <div class="carousel-caption">
+                                <h3>Food Restaurant Hand Dinner</h3>        
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://i.ibb.co/xGJmKyy/Group-of-happy-friends-having-fun-while-waiter-is-serving-them-food-in-a-pub.jpg" alt="waiters"/>
+                            <div class="carousel-caption">
+                                <h3>Good Services</h3>    
+                            </div>
+                        </div>
+                            <a class="left carousel-control" href="#myslider" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#myslider" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                    </div> 
+                </div>
+            </div>
+              <br/>
+              <br/>
+            <div id="QuickSearch">  
+                    <span id="QuickHeading">
+                        Quick Search
+                    </span>
+                    <span id="QuickSubHeading">
+                        Discover Restaurants By Meal
+                    </span>
+                    <br/>        
+                    <div id="mainContainer">
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="pic/breakfast.jpg" alt="BreakFast"/>
+                            </div>
+                             
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="../Homepage/listing/listing.html" target="_blank">BreakFast</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Breakfast Meal
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="pic/snacks.jpeg" alt="Sancks"/>
+                            </div>
+                             
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="../Homepage/listing/listing.html" target="_blank">Snacks</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Snacks Meal
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="pic/lunch1.jpg" alt="Lunch"/>
+                            </div> 
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="../Homepage/listing/listing.html " target="_blank">Lunch</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Lunch Meal
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="pic/dinner.jpeg" alt="Dinner"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="../Homepage/listing/listing.html" target="_blank">Dinner</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Dinner Meal
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="pic/dessert.jfif" alt="Desser"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="../Homepage/listing/listing.html" target="_blank">Dessert</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your Dessert Meal
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tileContainer">
+                            <div class="tileComponent1">
+                                <img src="pic/familynight.jpg" alt="nightlife"/>
+                            </div>
+                            <div class="tileComponent2">
+                                <div class="componentHeading">
+                                    <a href="../Homepage/listing/listing.html" target="_blank">NightLife</a>
+                                </div>
+                                <div class="componentSubHeading">
+                                    Enjoy Your nightlife Meal
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+           
+            <footer> 
+                <div class="footer-container">  
+                    <div class="footer">
+                        <div class="footer-heading footer-1">
+                            <h2>About Us</h2>
+                            <p>Emaa Restaurant is a small business<p>that 
+                                prepares and serves food and drinks to customers</a>
+                          
+
+                        </div>
+                        <div class="footer-heading footer-2">
+                            <h2>Quik Link</h2>
+                            <a href="#">Home</a>
+                            <a href="#">About Us</a>
+                            <a href="#">Menu</a>
+                            <a href="#">Services</a>
+                            <a href="#">Contact Us</a>
+                           
+                        </div>
+                        <div class="footer-heading footer-3">
+                            <h2>Follow Us</h2>
+                            <a href="#"><i class="fab fa-facebook f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            
+
+                        </div>
+                        <div class="footer-email-form">
+                            <h2>Join Us</h2>
+                            <input type="email"  placeholder="Enter your email address" id="footer-email">
+                            <input type="submit" value="Sign Up" id="footer-email-btn">
+                            
+                        </div>
+                    </div>
+                </div>  
+        </footer> 
+        </div>
+    </body>
+</html>
