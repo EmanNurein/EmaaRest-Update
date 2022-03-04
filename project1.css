@@ -1,0 +1,20 @@
+body{
+    margin: auto;
+}
+
+.navbar-expand-lg{
+    height: 80px;   
+}
+
+.carousel-item{
+    color: black;
+}
+
+.item >img{
+    height: 400px !important;
+    width:100%; 
+}
+.card{
+    height: 200px;
+    
+}
